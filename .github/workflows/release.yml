@@ -8,7 +8,7 @@ on:
       name:
         description: 'Human-readable name'
         required: true
-        default: 'JammyPup64 CE'
+        default: 'VoidUaPup64 CE'
       version:
         description: 'Version number'
         required: true
@@ -24,11 +24,11 @@ on:
       compat-distro:
         description: 'Compatible distro'
         required: false
-        default: 'ubuntu'
+        default: 'void/voidpup64'
       compat-distro-version:
         description: 'Compatible distro version'
         required: false
-        default: 'jammy64'
+        default: ''
       kernel:
         description: 'Kernel version'
         required: false
@@ -36,7 +36,7 @@ on:
       prefix:
         description: 'File name prefix'
         required: false
-        default: 'jammypup64ce'
+        default: 'voiduapup64ce'
       release:
         type: boolean
         description: 'Upload release draft'
