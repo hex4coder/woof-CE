@@ -65,7 +65,7 @@ jobs:
       - name: Download build artifact
         uses: actions/download-artifact@v3
         with:
-          name: ${{ github.workflow }}-${{ github.event.inputs.arch }}-${{ github.event.inputs.compat-distro }}-${{ github.event.inputs.compat-distro-version }}-${{ github.run_number }}
+          name: ${{ github.workflow }}-${{ github.event.inputs.arch }}-void64-${{ github.run_number }}
           path: .
       - name: Generate SHA512 checksums
         run: |
